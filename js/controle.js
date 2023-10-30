@@ -46,7 +46,7 @@ function marcar(id) {
         item.parentNode.appendChild(item);
 
     } else {
-
+        item.classList.remove('feito');
         var icone = document.getElementById('icone_' + id);
         icone.classList.add('mdi-circle-outline');
         icone.classList.remove('mdi-check-circle');
